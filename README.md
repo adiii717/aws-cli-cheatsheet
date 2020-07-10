@@ -6,4 +6,11 @@ Wide Range of AWS CLI command
 - Find latest shnapshot
 - Find snapshots against Account ID
 
-[Snapshot command](https://github.com/Adiii717/aws-cli-cheatsheet/tree/master/snapshot "AWS cli snapshot filter")
+[Snapshot AWS CLI command](https://github.com/Adiii717/aws-cli-cheatsheet/tree/master/snapshot "AWS cli snapshot filter")
+
+### AWS-CLI security Group 
+- Get Security group for particular region
+- Get Secuirty group for all region
+- Get Secuirty group for all region that allow public traffic
+
+[Secuirty Group AWS CLI command](https://github.com/Adiii717/aws-cli-cheatsheet/tree/master/security-group "AWS cli Security Group")
