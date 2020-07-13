@@ -14,3 +14,9 @@ Wide Range of AWS CLI command
 - Get Secuirty group for all region that allow public traffic
 
 [Secuirty Group AWS CLI command](https://github.com/Adiii717/aws-cli-cheatsheet/tree/master/security-group "AWS cli Security Group")
+
+### Create Lambda Layer
+- Python Create Lambda Layer
+- Nodejs (Todo)
+
+ [Create Lambda Layer] (https://github.com/Adiii717/aws-cli-cheatsheet/tree/master/lambda-laye/python "Create Lambda layer using command line")
