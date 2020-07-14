@@ -1,6 +1,6 @@
 # EC2 AWS CLI command
 
-### Describe  instance ID, instance IP, LaunchTime, Tags
+### Query instance ID, instance IP, LaunchTime, Tags
 
 ```
 aws ec2 describe-instances --query 'Reservations[].Instances[].{InstanceId:InstanceId,LaunchTime:LaunchTime,Tags:Tags[?Key==`Name`].Value|[0],PrivateIpAddress:PrivateIpAddress}' --output table
