@@ -37,7 +37,6 @@ echo "Get details for AMI ${LIST_AMI_ID_ARRAY[$index]}"
 #Get details of AMI
 AMI_DETAILS=$(aws ec2 describe-images --image-ids ${LIST_AMI_ID_ARRAY[$index]} --query 'Images[].{CreationDate:CreationDate,Tags:Tags[]}')
 echo "Instance having ID ${EC2_LIST_ARRAY[$index]} using  AMI ID ${LIST_AMI_ID_ARRAY[$index]}  Details: $AMI_DETAILS"
-exit 0
 
 done
 ```
