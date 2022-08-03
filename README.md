@@ -8,6 +8,11 @@ Wide Range of AWS CLI command
 
 [Snapshot AWS CLI command](https://github.com/Adiii717/aws-cli-cheatsheet/tree/master/snapshot "AWS cli snapshot filter")
 
+### S3
+- Retrieve files from s3 with the Content-type using AWS CLI
+
+[AWS s3 command](https://github.com/Adiii717/aws-cli-cheatsheet/tree/master/s3 "AWS S3 command")
+
 ### AWS-CLI security Group 
 - Get Security group for particular region
 - Get Secuirty group for all region
