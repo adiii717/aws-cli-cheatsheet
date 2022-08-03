@@ -1,7 +1,7 @@
 ## Retrieve files from s3 with the Content-type using AWS CLI
 
 
-
+```bash
 #!/bin/bash
 ContentType="application/octet-stream"
 BUCKET=mybucket
@@ -11,3 +11,4 @@ for KEY in ${OBJECT_LIST}
 do  
 aws s3api head-object --bucket $BUCKET --key $KEY --query "[\``echo $KEY`\`,ContentType]"  --output text | grep "$ContentType"
 done  
+```
